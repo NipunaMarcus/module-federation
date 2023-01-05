@@ -1,0 +1,13 @@
+.home-card {
+    background-color: rgb(82, 85, 86);
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home {
+    border: 1px dotted white;
+}
