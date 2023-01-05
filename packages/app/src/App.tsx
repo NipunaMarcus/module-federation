@@ -1,9 +1,10 @@
 import './App.css';
+import React, { Suspense } from 'react';
 
-// Import remote modules using static imports.
+// Import remote modules using lazy loading.
 // Use them inside the app component.
-import Home from 'homepage/Home';
-import Button from 'homepage/Button';
+const Home = React.lazy(() => import('homepage/Home'));
+const Button = React.lazy(() => import('homepage/Button'));
 
 function App() {
   return (
@@ -11,11 +12,15 @@ function App() {
       <h1>[Host Application] Welcome to the Shop!</h1>
       <div className='navBar'>
         <div>
-          <Button caption="Home" />
+          <Suspense fallback={<div>Loading...</div>} >
+            <Button caption="Home" />
+          </Suspense>
         </div>
       </div>
       <div className="card">
-        <Home />
+        <Suspense fallback={<div>Loading...</div>} >
+          <Home />
+        </Suspense>
         <p>
           Test App for host application.
         </p>
