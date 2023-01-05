@@ -1,6 +1,6 @@
 # Module Federation with Vite and React
 
-This is a sample with multiple packages with multiple applications to simulate usecase for developing
+This is a sample with multiple packages with multiple applications to simulate use case for developing
 an application using module federation.
 
 Blog: 
