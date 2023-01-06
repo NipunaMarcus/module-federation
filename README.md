@@ -33,7 +33,13 @@ npm run preview
 
 ```
 cd packages/home
-npm run start
+npm run preview
+```
+**Payment**
+
+```
+cd packages/payment
+npm run preview
 ```
 
 Running applications can be access through these URLs
@@ -50,4 +56,14 @@ Home page test application can be access from here.
 Entry file for the javascript module for shared component.
 
 `http://localhost:5000/assets/homepage.js`
+
+**Remote Application 2**
+Payment page test application can be access from here.
+
+`http://localhost:5002/`
+
+Entry file for the javascript module for shared component.
+
+`http://localhost:5002/assets/payment.js`
+
 
