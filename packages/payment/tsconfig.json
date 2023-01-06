@@ -21,14 +21,13 @@
         "resolveJsonModule": true,
         "moduleResolution": "Node",
         "forceConsistentCasingInFileNames": true,
-        "types": ["vite/client"]
     },
     "include": [
         "src"
     ],
     "exclude": [
         "node_modules",
-        "dist"
+        "build"
     ],
     "references": [{
         "path": "./tsconfig.node.json"

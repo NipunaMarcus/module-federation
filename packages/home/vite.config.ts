@@ -17,7 +17,7 @@ export default defineConfig({
         './Button': './src/components/button/index.tsx',
         './Home': './src/views/home/index.tsx'
       },
-      shared: ['react']
+      shared: ['react', 'react-dom', 'react-router-dom']
     }),
     tsconfigPaths(),
   ],
