@@ -1,7 +1,7 @@
 import { getProducts } from "../../utils/util";
 import "./Home.css"
 
-function Home() {
+export function Home() {
     // Get product names.
     const products: string[] = getProducts();
     return (
@@ -21,5 +21,3 @@ function Home() {
         </div>
     );
 }
-
-export default Home;

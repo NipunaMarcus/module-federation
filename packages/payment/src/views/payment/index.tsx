@@ -1,6 +1,6 @@
 import "./Payment.css"
 
-function Payment() {
+export function Payment() {
     return (
         <div className="payment">
             <h3>Remote 2: Payment</h3>
@@ -11,5 +11,3 @@ function Payment() {
         </div>
     );
 }
-
-export default Payment;
